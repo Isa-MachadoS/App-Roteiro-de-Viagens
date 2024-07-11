@@ -72,6 +72,7 @@ const criarItemDeAtividade = (atividade) => {
 
       <div>
           <time class="short">
+              Em <strong>${atividade.local}</strong>,<br>
               ${formatar.dia.semana.curto}.
               ${formatar.dia.numerico} <br>
               ${formatar.hora}
